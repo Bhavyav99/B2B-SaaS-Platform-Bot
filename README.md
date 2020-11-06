@@ -20,7 +20,7 @@ Import the Assistant skill-Chat_Bot.json:
 * Go to the `Skills` tab.
 * Click `Create skill`
 * Click the `Import skill` tab.
-* Click `Choose JSON file`, go to your cloned repo dir, and `Open` the rent_a_car.json file in [`data/assistant/rent_a_car.json`](data/assistant/rent_a_car.json).
+* Click `Choose JSON file`, go to your cloned repo dir, and `Open` the skill-Chat_Bot.json file. 
 * Click `Import`.
 
 Note: you can change the dialog systems as required and the json file will be modified accordingly. 
