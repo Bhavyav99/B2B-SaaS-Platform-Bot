@@ -1,0 +1,3072 @@
+{
+  "intents": [
+    {
+      "intent": "acess-control",
+      "examples": [
+        {
+          "text": "Access Control"
+        }
+      ],
+      "description": "SCBN hunt option 3 "
+    },
+    {
+      "intent": "Addition-of-new-users",
+      "examples": [
+        {
+          "text": "Additon of new users"
+        }
+      ],
+      "description": "SCBN hunt option 2 "
+    },
+    {
+      "intent": "alert-option",
+      "examples": [
+        {
+          "text": "Do you want to enable alert notification?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "all-failures",
+      "examples": [
+        {
+          "text": "All Failures"
+        }
+      ],
+      "description": "alert notification 1 "
+    },
+    {
+      "intent": "AS2",
+      "examples": [
+        {
+          "text": "as2"
+        },
+        {
+          "text": "AS2 (Applicability Statement 2) is a specification about how to transport structured business-to-business data securely and reliably over the Internet. Security is achieved by using digital certificates and encryption."
+        }
+      ]
+    },
+    {
+      "intent": "bti",
+      "examples": [
+        {
+          "text": "BTI"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "bti_response",
+      "examples": [
+        {
+          "text": "With the addition of BTI, the new capability digests the electronic document flow, scans for known correlation indicators, and displays the transactions lifecycle in real-time and in context. Allowing IT or business users to use natural language search to find the information they are looking for simply, and easily. "
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "change-in-role",
+      "examples": [
+        {
+          "text": "Change in role"
+        },
+        {
+          "text": "D."
+        }
+      ],
+      "description": "SCBN hunt option 3"
+    },
+    {
+      "intent": "Connectivity",
+      "examples": [
+        {
+          "text": "Connectivity"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "contact-support",
+      "examples": [
+        {
+          "text": "Contact Support"
+        }
+      ]
+    },
+    {
+      "intent": "continue",
+      "examples": [
+        {
+          "text": "no"
+        }
+      ],
+      "description": "intent for continue or exit "
+    },
+    {
+      "intent": "Custom-Failures",
+      "examples": [
+        {
+          "text": "Custom Failures"
+        }
+      ],
+      "description": "alert notification option 2 "
+    },
+    {
+      "intent": "customised_report",
+      "examples": [
+        {
+          "text": "Yes, customizable reports are possible. Tocreate customizable reports , kindly refer to the below link:"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "custom-report",
+      "examples": [
+        {
+          "text": "Custom Reports"
+        }
+      ],
+      "description": "report option 3 "
+    },
+    {
+      "intent": "Daily",
+      "examples": [
+        {
+          "text": "Daily"
+        }
+      ],
+      "description": "report "
+    },
+    {
+      "intent": "edi",
+      "examples": []
+    },
+    {
+      "intent": "edi-option1",
+      "examples": [
+        {
+          "text": "Good to know that your company is EDI enabled, kindly let us know your requirement so that we can contact you."
+        }
+      ]
+    },
+    {
+      "intent": "email",
+      "examples": [
+        {
+          "text": "bhavya@gmail.com"
+        },
+        {
+          "text": "Email"
+        },
+        {
+          "text": "I am not able to login - bhavy@gmail.com"
+        },
+        {
+          "text": "please type type mail id"
+        },
+        {
+          "text": "Short for electronic mail, e-mail or email is information stored on a computer that is exchanged between two users over telecommunications. More plainly, e-mail is a message that may contain text, files, images, or other attachments sent through a network to a specified individual or group of individuals"
+        }
+      ]
+    },
+    {
+      "intent": "emailandquery",
+      "examples": [
+        {
+          "text": "b@gmail.com and this is the issue"
+        },
+        {
+          "text": "emailandquery"
+        },
+        {
+          "text": "@facebook.com"
+        },
+        {
+          "text": "@gmail.com"
+        },
+        {
+          "text": "mailandquery"
+        },
+        {
+          "text": "not able to login - bhavya@gmail.com"
+        },
+        {
+          "text": "@outlook.com"
+        },
+        {
+          "text": "@yahoo.com"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "email-contact",
+      "examples": [
+        {
+          "text": "email"
+        },
+        {
+          "text": "Email and Support Case"
+        }
+      ],
+      "description": "Contact support "
+    },
+    {
+      "intent": "exit",
+      "examples": [
+        {
+          "text": "exit"
+        }
+      ]
+    },
+    {
+      "intent": "find-doc",
+      "examples": [
+        {
+          "text": "Kindly find the detailed document on the inflight usage and FAQ"
+        },
+        {
+          "text": "Kindly find the document below for more information."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ftp",
+      "examples": [
+        {
+          "text": "ftp"
+        },
+        {
+          "text": "The File Transfer Protocol is a standard network protocol used for the transfer of computer files between a client and server on a computer network. FTP is built on a client-server model architecture using separate control and data connections between the client and the server"
+        }
+      ]
+    },
+    {
+      "intent": "hello",
+      "examples": [
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "more options"
+        },
+        {
+          "text": "please show me what can you do"
+        },
+        {
+          "text": "whats your name?"
+        },
+        {
+          "text": "who are you ?"
+        }
+      ]
+    },
+    {
+      "intent": "https",
+      "examples": [
+        {
+          "text": "HTTPS"
+        },
+        {
+          "text": " HTTPS - Wikipediaen.wikipedia.org › wiki › HTTPS Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication over a computer network, and is widely used on the Internet."
+        }
+      ]
+    },
+    {
+      "intent": "inbound-failures",
+      "examples": [
+        {
+          "text": "Inbound Failures Only"
+        }
+      ],
+      "description": "alert notification custom option 1 "
+    },
+    {
+      "intent": "inbound-report",
+      "examples": [
+        {
+          "text": "Inbound Reports"
+        }
+      ],
+      "description": "Report option 1 "
+    },
+    {
+      "intent": "inflight",
+      "examples": [
+        {
+          "text": "inflight"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "login-issues",
+      "examples": [
+        {
+          "text": "A"
+        },
+        {
+          "text": "Login-issues"
+        }
+      ],
+      "description": "SCBN hunt option 1 "
+    },
+    {
+      "intent": "Main_Menu",
+      "examples": [
+        {
+          "text": "back to main menu"
+        },
+        {
+          "text": "Main Menu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "main-menu",
+      "examples": [
+        {
+          "text": "Main Menu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "monthly",
+      "examples": [
+        {
+          "text": "Monthly"
+        }
+      ],
+      "description": "report "
+    },
+    {
+      "intent": "moreinfo",
+      "examples": [
+        {
+          "text": "no"
+        },
+        {
+          "text": "yes"
+        }
+      ]
+    },
+    {
+      "intent": "name",
+      "examples": [
+        {
+          "text": "my name is"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no-protocol",
+      "examples": [
+        {
+          "text": "no-protocol"
+        }
+      ],
+      "description": "protocol options "
+    },
+    {
+      "intent": "notification",
+      "examples": [
+        {
+          "text": "Alert Notification"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "only-translation-failures",
+      "examples": [
+        {
+          "text": "Only Translation Failures"
+        },
+        {
+          "text": "Translation Failures"
+        }
+      ],
+      "description": "Alert notification option 3 "
+    },
+    {
+      "intent": "others",
+      "examples": [
+        {
+          "text": "Kindly leave your email id, Our SME will touch base with you."
+        },
+        {
+          "text": "others"
+        },
+        {
+          "text": "Please provide your email id."
+        },
+        {
+          "text": "Please type your query and email id , so that we can get back to you on your requirement"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "others-alert",
+      "examples": [
+        {
+          "text": "others"
+        },
+        {
+          "text": "others-alert"
+        }
+      ],
+      "description": "Alert notification option 2 custom options"
+    },
+    {
+      "intent": "others-contact",
+      "examples": [
+        {
+          "text": "Others-contact"
+        }
+      ],
+      "description": "contact support "
+    },
+    {
+      "intent": "others-protocol",
+      "examples": [
+        {
+          "text": "Others."
+        }
+      ],
+      "description": "protocol setup"
+    },
+    {
+      "intent": "outbound-failures",
+      "examples": [
+        {
+          "text": "Outbound Failures Only"
+        }
+      ],
+      "description": "alert notification custom option 2 "
+    },
+    {
+      "intent": "outbound-report",
+      "examples": [
+        {
+          "text": "Outbound Report"
+        }
+      ],
+      "description": "Report option 2 "
+    },
+    {
+      "intent": "peppol",
+      "examples": [
+        {
+          "text": "PEPPOL"
+        }
+      ],
+      "description": "protocol setop options "
+    },
+    {
+      "intent": "performance",
+      "examples": [
+        {
+          "text": "performance"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Protocols-Setup",
+      "examples": [
+        {
+          "text": "Protocols Setup"
+        }
+      ],
+      "description": "main menu option "
+    },
+    {
+      "intent": "queries",
+      "examples": [
+        {
+          "text": "i have an issue with"
+        },
+        {
+          "text": "Indeed info on the pricing"
+        },
+        {
+          "text": "Information on"
+        },
+        {
+          "text": "Price"
+        }
+      ]
+    },
+    {
+      "intent": "report",
+      "examples": [
+        {
+          "text": "Report"
+        }
+      ]
+    },
+    {
+      "intent": "Reporting",
+      "examples": [
+        {
+          "text": "Reporting"
+        }
+      ],
+      "description": "one of the main options "
+    },
+    {
+      "intent": "scbn",
+      "examples": [
+        {
+          "text": "SCBN"
+        },
+        {
+          "text": "security"
+        },
+        {
+          "text": "security in scbn"
+        }
+      ],
+      "description": "security in SCBN "
+    },
+    {
+      "intent": "secure",
+      "examples": [
+        {
+          "text": "highly secure"
+        },
+        {
+          "text": "Please refer to this link for more information."
+        },
+        {
+          "text": "secure"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "sftp",
+      "examples": [
+        {
+          "text": "sftp"
+        },
+        {
+          "text": "SFTP (SSH File Transfer Protocol) is a secure file transfer protocol. It runs over the SSH protocol. It supports the full security and authentication functionality of SSH"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "smtp",
+      "examples": [
+        {
+          "text": "Simple Mail Transfer Protocol. It is a program used for sending messages to other computer users based on e-mail addresses."
+        },
+        {
+          "text": "SMTP"
+        }
+      ]
+    },
+    {
+      "intent": "successfull-login",
+      "examples": [
+        {
+          "text": "Although i logged in"
+        },
+        {
+          "text": "Good to know that you are able to successfully login, kindly go through the manual on the usage of Inflight."
+        },
+        {
+          "text": "I logged in, but"
+        },
+        {
+          "text": "i m not able to login"
+        },
+        {
+          "text": "there is some error"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "telephone",
+      "examples": [
+        {
+          "text": "Telephone and Hot Line"
+        }
+      ],
+      "description": "Contact support options "
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "no, thank you"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "ty"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "username-password",
+      "examples": [
+        {
+          "text": "Have you received your username and password for inflight?"
+        },
+        {
+          "text": "how do i login ?"
+        },
+        {
+          "text": "I dont have any credentials to login"
+        },
+        {
+          "text": "i m getting an error when i m trying to login in"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "weekly",
+      "examples": [
+        {
+          "text": "Weekly"
+        }
+      ],
+      "description": "report "
+    },
+    {
+      "intent": "x400",
+      "examples": [
+        {
+          "text": "X400"
+        },
+        {
+          "text": "X. 400"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes-protocol",
+      "examples": [
+        {
+          "text": "yes-protocol"
+        }
+      ],
+      "description": "For protocol options "
+    }
+  ],
+  "entities": [
+    {
+      "entity": "continue",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "managed@abc.com",
+          "patterns": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "phone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "2222",
+          "patterns": []
+        },
+        {
+          "type": "patterns",
+          "value": "9999",
+          "patterns": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1600244152482",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "parent": "Welcome",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_1_1600256618575"
+    },
+    {
+      "type": "standard",
+      "title": "x400",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "X. 400 is a suite of protocols defining standards for email messaging systems."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Please let us know is you want to use $protocol_1 and need more information?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-protocol"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-protocol"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1599746560310",
+      "conditions": "#x400",
+      "dialog_node": "node_10_1599747154709"
+    },
+    {
+      "type": "standard",
+      "title": "https",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "HTTPS - Wikipediaen.wikipedia.org › wiki › HTTPS\nHypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication over a computer network, and is widely used on the Internet.\nPlease let us know is you want to use HTTP/S and need more information?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want more information?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-protocol"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-protocol"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1599746560310",
+      "conditions": "#https",
+      "dialog_node": "node_10_1599748160549",
+      "previous_sibling": "node_4_1599748071530"
+    },
+    {
+      "type": "standard",
+      "title": "Report",
+      "output": {
+        "generic": [
+          {
+            "title": "Reporting – We can send you reports on the documents that are exchanged.",
+            "options": [
+              {
+                "label": "Inbound Reports ",
+                "value": {
+                  "input": {
+                    "text": "Inbound Reports "
+                  }
+                }
+              },
+              {
+                "label": "Outbound Reports",
+                "value": {
+                  "input": {
+                    "text": "Outbound Reports"
+                  }
+                }
+              },
+              {
+                "label": "Custom Reports",
+                "value": {
+                  "input": {
+                    "text": "Custom Reports"
+                  }
+                }
+              }
+            ],
+            "description": "We recommend you to click on the given options below:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Reporting",
+      "dialog_node": "node_10_1599752058611",
+      "previous_sibling": "node_1_1599749370804"
+    },
+    {
+      "type": "standard",
+      "title": "main menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Back to main menu "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#Main_Menu",
+      "dialog_node": "node_10_1599753661931",
+      "previous_sibling": "node_3_1600088246462"
+    },
+    {
+      "type": "standard",
+      "title": "others",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please type your query and email id , so that we can get back to you on your requirement. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1599746560310",
+      "conditions": "#others-protocol",
+      "dialog_node": "node_10_1599931674460",
+      "previous_sibling": "node_7_1599931527092"
+    },
+    {
+      "type": "standard",
+      "title": "Alert Notification",
+      "output": {
+        "generic": [
+          {
+            "title": "Alert Notification – If you would like to receive any alerts for the documents exchanged.",
+            "options": [
+              {
+                "label": "All failures ",
+                "value": {
+                  "input": {
+                    "text": "All failures "
+                  }
+                }
+              },
+              {
+                "label": "Custom Failures ",
+                "value": {
+                  "input": {
+                    "text": "Custom Failures "
+                  }
+                }
+              },
+              {
+                "label": "Only Translation Failures ",
+                "value": {
+                  "input": {
+                    "text": "Only Translation Failures "
+                  }
+                }
+              }
+            ],
+            "description": "We recommend you to click on the given options below:  ",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#notification || $3",
+      "dialog_node": "node_1_1599749370804",
+      "previous_sibling": "node_4_1599746560310"
+    },
+    {
+      "type": "standard",
+      "title": "Alert notification option 2 ",
+      "output": {
+        "generic": [
+          {
+            "title": "Custom Failures",
+            "options": [
+              {
+                "label": "Inbound Failures Only",
+                "value": {
+                  "input": {
+                    "text": "Inbound Failures Only"
+                  }
+                }
+              },
+              {
+                "label": "Outbound Failures Only",
+                "value": {
+                  "input": {
+                    "text": "Outbound Failures Only"
+                  }
+                }
+              },
+              {
+                "label": "Others ",
+                "value": {
+                  "input": {
+                    "text": "others-alert"
+                  }
+                }
+              }
+            ],
+            "description": "We recommend you to click on the given options below:  ",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1599749370804",
+      "conditions": "#Custom-Failures",
+      "dialog_node": "node_1_1599918123493",
+      "previous_sibling": "node_8_1599918502378"
+    },
+    {
+      "type": "standard",
+      "title": "Custom option 1 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for letting us know. We would have the configuration done and you should start seeing the notifications fairly soon."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1599918123493",
+      "conditions": "#inbound-failures",
+      "dialog_node": "node_1_1599919261933"
+    },
+    {
+      "type": "standard",
+      "title": "Contact Support",
+      "output": {
+        "generic": [
+          {
+            "title": "Contact Support ",
+            "options": [
+              {
+                "label": "Telephone and Hot Line",
+                "value": {
+                  "input": {
+                    "text": "Telephone and Hot Line"
+                  }
+                }
+              },
+              {
+                "label": "Email and Support Case",
+                "value": {
+                  "input": {
+                    "text": "Email and Support Case"
+                  }
+                }
+              },
+              {
+                "label": "Others",
+                "value": {
+                  "input": {
+                    "text": "Others - contact "
+                  }
+                }
+              }
+            ],
+            "description": "We recommend you to click on the given options below:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#contact-support",
+      "dialog_node": "node_1_1599932835613",
+      "previous_sibling": "node_3_1599564161423"
+    },
+    {
+      "type": "standard",
+      "title": "telephone and Hotline ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "24 X 7 Number -  <a href=\"tel:$phone_1\">9999</a>\nHotline Number - <a href=\"tel:$phone_2\">2222</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1599932835613",
+      "context": {
+        "phone_1": 9999,
+        "phone_2": 2222
+      },
+      "conditions": "#telephone",
+      "dialog_node": "node_1_1599933389625"
+    },
+    {
+      "type": "standard",
+      "title": "Inflight",
+      "output": {
+        "generic": [
+          {
+            "title": "These are the list of things i can help you with under Security in SCBN : ",
+            "options": [
+              {
+                "label": "1.Have you received your username and password for inflight?",
+                "value": {
+                  "input": {
+                    "text": "Kindly use the username and password to login into inflight if you get any error message kindly let us know."
+                  }
+                }
+              },
+              {
+                "label": "2.Are you able sucessfully login into inflight? ",
+                "value": {
+                  "input": {
+                    "text": "Good to know that you are able to sucessfully login, kindly go through the manual on the usage of Inflight."
+                  }
+                }
+              },
+              {
+                "label": "3.Kindly find the document below for more information.",
+                "value": {
+                  "input": {
+                    "text": "Kindly find the detailed document on the inflight usgae and FAQ"
+                  }
+                }
+              },
+              {
+                "label": "4.Others",
+                "value": {
+                  "input": {
+                    "text": "Please type your query and email id , so that we can get back to you on your requirement"
+                  }
+                }
+              },
+              {
+                "label": "5. Main Menu ",
+                "value": {
+                  "input": {
+                    "text": "Back to Main Menu"
+                  }
+                }
+              }
+            ],
+            "description": "scbn options ",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#inflight",
+      "dialog_node": "node_2_1599539095389",
+      "previous_sibling": "node_2_1599675743932"
+    },
+    {
+      "type": "standard",
+      "title": "username-password",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kindly use the username and password to login into inflight if you get any error message kindly let us know."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1599539095389",
+      "conditions": "#username-password",
+      "dialog_node": "node_2_1599558632757"
+    },
+    {
+      "type": "standard",
+      "title": "SCBN Hub ",
+      "output": {
+        "generic": [
+          {
+            "title": "SCBN is built on Cloud Native Application, Uses Micro services, Managed By Kubernetes.",
+            "options": [
+              {
+                "label": "A. Login Issues",
+                "value": {
+                  "input": {
+                    "text": "Login Issues"
+                  }
+                }
+              },
+              {
+                "label": "B. Addition of New Users",
+                "value": {
+                  "input": {
+                    "text": "Addition of New Users"
+                  }
+                }
+              },
+              {
+                "label": "C. Access Control",
+                "value": {
+                  "input": {
+                    "text": "Access Control"
+                  }
+                }
+              },
+              {
+                "label": "D. Change in Role",
+                "value": {
+                  "input": {
+                    "text": "Change in Role"
+                  }
+                }
+              },
+              {
+                "label": "E. Others",
+                "value": {
+                  "input": {
+                    "text": " Others"
+                  }
+                }
+              }
+            ],
+            "description": "We recommend you to choose one of  the given options below:  ",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#scbn || $1",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1599675743932",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "BTI",
+      "output": {
+        "generic": [
+          {
+            "title": "IBM have put to our AI to work on this task with our new capability Business Transaction Intelligence (BTI). BTI is a cognitive capability of IBM Sterling Supply Chain Business Network that provides meaningful  services. ",
+            "options": [
+              {
+                "label": "A. Login Issues ",
+                "value": {
+                  "input": {
+                    "text": " Login Issues "
+                  }
+                }
+              },
+              {
+                "label": "B. Addition of New Users",
+                "value": {
+                  "input": {
+                    "text": "Addition of New Users"
+                  }
+                }
+              },
+              {
+                "label": "C. Access Control",
+                "value": {
+                  "input": {
+                    "text": " Access Control"
+                  }
+                }
+              },
+              {
+                "label": "D. Change in Role",
+                "value": {
+                  "input": {
+                    "text": "Change in Role"
+                  }
+                }
+              },
+              {
+                "label": "E. Others",
+                "value": {
+                  "input": {
+                    "text": "Others"
+                  }
+                }
+              }
+            ],
+            "description": "We recommend you to click on the given options below:  ",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#bti || $2",
+      "dialog_node": "node_2_1599677116631",
+      "previous_sibling": "node_2_1599539095389"
+    },
+    {
+      "type": "standard",
+      "title": "Exit ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nice Talking to you, Have a great day !!  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ],
+        "output_eraser": "<? output.clear() ?>",
+        "context_eraser": "<? context.clear() ?>"
+      },
+      "context": {},
+      "conditions": "#exit",
+      "dialog_node": "node_2_1599753345182",
+      "previous_sibling": "node_1_1599932835613"
+    },
+    {
+      "type": "standard",
+      "title": "Report option 3 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please send an email to managed@abc.com <? $x > stating the type of reports you would want to receive and the corresponding frequency. our client support representative would soon attend to it."
+              },
+              {
+                "text": " "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue ? ",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1599752058611",
+      "conditions": "#custom-report",
+      "dialog_node": "node_2_1599930410562",
+      "previous_sibling": "node_4_1599930223263"
+    },
+    {
+      "type": "standard",
+      "title": "email-query",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you, our support team will contact you within 24 hours. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#emailandquery",
+      "dialog_node": "node_3_1599564161423",
+      "previous_sibling": "node_7_1599676862650"
+    },
+    {
+      "type": "standard",
+      "title": "sftp",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "SFTP (SSH File Transfer Protocol) is a secure file transfer protocol. It runs over the SSH protocol. It supports the full security and authentication functionality of SSH.\nPlease let us know is you want to use SFTP and need more information?\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want more information?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-protocol"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-protocol"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1599746560310",
+      "conditions": "#sftp",
+      "dialog_node": "node_3_1599747721747",
+      "previous_sibling": "node_10_1599747154709"
+    },
+    {
+      "type": "standard",
+      "title": "scbn hunt option 3 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please send an email to managed@abc.com <? $x > stating the page you are unable to access or need access for."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1599675743932",
+      "conditions": "#acess-control",
+      "dialog_node": "node_3_1599917081392",
+      "previous_sibling": "node_8_1599916953733"
+    },
+    {
+      "type": "standard",
+      "title": "do you want to continue/ not ",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you want to continue or not ?? ",
+            "options": [
+              {
+                "label": "yes ",
+                "value": {
+                  "input": {
+                    "text": "yes- main menu "
+                  }
+                }
+              },
+              {
+                "label": "no ",
+                "value": {
+                  "input": {
+                    "text": "no - exit "
+                  }
+                }
+              }
+            ],
+            "description": "Selecting yes will take you back to the main menu",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#no-protocol",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1600088246462",
+      "previous_sibling": "node_2_1599753345182"
+    },
+    {
+      "type": "standard",
+      "title": "thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mention not. \nDo you want me to help you with anything else  ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#thank_you",
+      "dialog_node": "node_3_1600090430548",
+      "previous_sibling": "node_10_1599753661931"
+    },
+    {
+      "type": "standard",
+      "title": "Protocols Setup",
+      "output": {
+        "generic": [
+          {
+            "title": "Protocols Setup – To exchange the EDI and NON EDI documents, you can establish connectivity via X400, SFTP, FTP, AS2, SMTP,HTTP/s,Email and PEPPOL",
+            "options": [
+              {
+                "label": "$protocol_1",
+                "value": {
+                  "input": {
+                    "text": "X400"
+                  }
+                }
+              },
+              {
+                "label": "$protocol_2",
+                "value": {
+                  "input": {
+                    "text": "SFTP"
+                  }
+                }
+              },
+              {
+                "label": "$protocol_3",
+                "value": {
+                  "input": {
+                    "text": "FTP"
+                  }
+                }
+              },
+              {
+                "label": "$protocol_4",
+                "value": {
+                  "input": {
+                    "text": "AS2"
+                  }
+                }
+              },
+              {
+                "label": "$protocol_5",
+                "value": {
+                  "input": {
+                    "text": "SMTP"
+                  }
+                }
+              },
+              {
+                "label": "$protocol_6",
+                "value": {
+                  "input": {
+                    "text": "HTTP"
+                  }
+                }
+              },
+              {
+                "label": "$protocol_7",
+                "value": {
+                  "input": {
+                    "text": "Email "
+                  }
+                }
+              },
+              {
+                "label": "$protocol_8",
+                "value": {
+                  "input": {
+                    "text": "PEPPOL"
+                  }
+                }
+              },
+              {
+                "label": "Others.",
+                "value": {
+                  "input": {
+                    "text": "Others."
+                  }
+                }
+              }
+            ],
+            "description": "We recommend you to click on the given options below:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "protocol_1": "X400",
+        "protocol_2": "SFTP",
+        "protocol_3": "FTP",
+        "protocol_4": "AS2",
+        "protocol_5": "SMTP",
+        "protocol_6": "HTTP/s",
+        "protocol_7": "EMAIL",
+        "protocol_8": "PEPPOL"
+      },
+      "conditions": "#Protocols-Setup",
+      "dialog_node": "node_4_1599746560310",
+      "previous_sibling": "node_6_1599678037024"
+    },
+    {
+      "type": "standard",
+      "title": "SMTP",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "SMTP stands for Simple Mail Transfer Protocol. SMTP is a set of communication guidelines that allow software to transmit an electronic mail over the internet is called Simple Mail Transfer Protocol. It is a program used for sending messages to other computer users based on e-mail addresses.\nPlease let us know is you want to use SMTP and need more information?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want more information?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-protocol"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-protocol"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1599746560310",
+      "conditions": "#smtp",
+      "dialog_node": "node_4_1599748071530",
+      "previous_sibling": "node_6_1599747949345"
+    },
+    {
+      "type": "standard",
+      "title": "email ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Short for electronic mail, e-mail or email is information stored on a computer that is exchanged between two users over telecommunications. More plainly, e-mail is a message that may contain text, files, images, or other attachments sent through a network to a specified individual or group of individuals.\nPlease let us know is you want to use Email and need more information?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want more information?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-protocol"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-protocol"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1599746560310",
+      "conditions": "#email",
+      "dialog_node": "node_4_1599748273525",
+      "previous_sibling": "node_10_1599748160549"
+    },
+    {
+      "type": "standard",
+      "title": "Custom option 3 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please state specifically what failures you would want to receive and send an email to managed@abc.com <? $x >"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1599918123493",
+      "conditions": "#others-alert",
+      "dialog_node": "node_4_1599919345505",
+      "previous_sibling": "node_8_1599919304394"
+    },
+    {
+      "type": "standard",
+      "title": "Report option 1 ",
+      "output": {
+        "generic": [
+          {
+            "title": "How frequently do you need them?",
+            "options": [
+              {
+                "label": "Daily ",
+                "value": {
+                  "input": {
+                    "text": "Daily "
+                  }
+                }
+              },
+              {
+                "label": "Weekly ",
+                "value": {
+                  "input": {
+                    "text": "Weekly "
+                  }
+                }
+              },
+              {
+                "label": "Monthly ",
+                "value": {
+                  "input": {
+                    "text": "Monthly "
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1599752058611",
+      "conditions": "#inbound-report",
+      "dialog_node": "node_4_1599929109198"
+    },
+    {
+      "type": "standard",
+      "title": "report- daily-weekend-monthly ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you. We would have the configuration done and you should start seeing the Inbound reports emailed to you fairly soon."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue ?? ",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Back to Main Menu "
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1599929109198",
+      "conditions": "#Daily || #weekly || #monthly",
+      "dialog_node": "node_4_1599929857657"
+    },
+    {
+      "type": "standard",
+      "title": "Report Option 2 ",
+      "output": {
+        "generic": [
+          {
+            "title": "How frequently do you need them?",
+            "options": [
+              {
+                "label": "Daily",
+                "value": {
+                  "input": {
+                    "text": "Daily"
+                  }
+                }
+              },
+              {
+                "label": "Weekly",
+                "value": {
+                  "input": {
+                    "text": "Weekly"
+                  }
+                }
+              },
+              {
+                "label": "Monthly",
+                "value": {
+                  "input": {
+                    "text": "Monthly"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1599752058611",
+      "conditions": "#outbound-report",
+      "dialog_node": "node_4_1599930223263",
+      "previous_sibling": "node_4_1599929109198"
+    },
+    {
+      "type": "standard",
+      "title": "Others",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please write to Account Representation or Project Executive"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1599932835613",
+      "conditions": "#others-contact",
+      "dialog_node": "node_4_1599933494778",
+      "previous_sibling": "node_6_1599933458830"
+    },
+    {
+      "type": "standard",
+      "title": "bti response 1 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please send an email to managed@abc.com <? $x > with your details"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1599677116631",
+      "conditions": "#login-issues",
+      "dialog_node": "node_5_1599677604163"
+    },
+    {
+      "type": "standard",
+      "title": "scbn hunt option 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please send an email to managed@abc.com<? $x > with your details. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Back to Main menu "
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1599675743932",
+      "conditions": "#login-issues",
+      "dialog_node": "node_5_1599916868934"
+    },
+    {
+      "type": "standard",
+      "title": "scbn hunt option 4 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please send email to managed@abc.com <? $x >stating the limitations in the current role. \nOur Client support representative would address your concerns and help with change in role if necessary. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1599675743932",
+      "conditions": "#change-in-role",
+      "dialog_node": "node_5_1599917213876",
+      "previous_sibling": "node_3_1599917081392"
+    },
+    {
+      "type": "standard",
+      "title": "Alert notification option 3 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for letting us know. We would have the configuration done and you should start seeing the translation failure notifications fairly soon."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1599749370804",
+      "conditions": "#only-translation-failures",
+      "dialog_node": "node_5_1599918693890",
+      "previous_sibling": "node_1_1599918123493"
+    },
+    {
+      "type": "standard",
+      "title": "report - daily-weekend-monthly",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you. We would have the configuration done and you should start seeing the Inbound reports emailed to you fairly soon."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue ? ",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Back to Main Menu "
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1599930223263",
+      "conditions": "#Daily || #weekly || #monthly",
+      "dialog_node": "node_5_1599930338700"
+    },
+    {
+      "type": "standard",
+      "title": "yes - protocol ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Team will contact you within 24 hours for setting up the required protocol. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue ? ",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Back to Main Menu "
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#yes-protocol",
+      "dialog_node": "node_5_1600089503014",
+      "previous_sibling": "node_2_1599677116631"
+    },
+    {
+      "type": "standard",
+      "title": "Performance",
+      "output": {
+        "generic": [
+          {
+            "title": "SCBN is very fast and roboust.  kindly refer to the link below for more information: ",
+            "options": [
+              {
+                "label": "1.Others ",
+                "value": {
+                  "input": {
+                    "text": "Please type your query and email id , so that we can get back to you on your requirement"
+                  }
+                }
+              },
+              {
+                "label": "2. Main Menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#performance",
+      "dialog_node": "node_6_1599678037024",
+      "previous_sibling": "node_5_1600089503014"
+    },
+    {
+      "type": "standard",
+      "title": "AS2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "AS2 (Applicability Statement 2) is a specification about how to transport structured business-to-business data securely and reliably over the Internet. Security is achieved by using digital certificates and encryption.\nPlease let us know is you want to use As2 and need more information?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want more information?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-protocol"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-protocol"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1599746560310",
+      "conditions": "#AS2",
+      "dialog_node": "node_6_1599747949345",
+      "previous_sibling": "node_7_1599747789517"
+    },
+    {
+      "type": "standard",
+      "title": "EDI",
+      "output": {
+        "generic": [
+          {
+            "title": "Electronic Data Interchange (EDI) is the electronic interchange of business information using a standardized format; a process which allows one company to send information to another company electronically  rather than with paper. ",
+            "options": [
+              {
+                "label": "Is you company EDI enabled?",
+                "value": {
+                  "input": {
+                    "text": "Good to know that your company is EDI enabled, kindly let us know your requirement so that we can contact you."
+                  }
+                }
+              },
+              {
+                "label": "Are you new to EDI?",
+                "value": {
+                  "input": {
+                    "text": "others"
+                  }
+                }
+              },
+              {
+                "label": "Others",
+                "value": {
+                  "input": {
+                    "text": "others"
+                  }
+                }
+              },
+              {
+                "label": "Main Menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#edi",
+      "dialog_node": "node_6_1599752782821",
+      "previous_sibling": "node_10_1599752058611"
+    },
+    {
+      "type": "standard",
+      "title": "Email and Support Case",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please write to managed@abc.com <? $x >"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1599932835613",
+      "conditions": "#email-contact",
+      "dialog_node": "node_6_1599933458830",
+      "previous_sibling": "node_1_1599933389625"
+    },
+    {
+      "type": "standard",
+      "title": "Exit - child node",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1599753345182",
+      "dialog_node": "node_6_1600534827218"
+    },
+    {
+      "type": "standard",
+      "title": "successful-login",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good to know that you are able to sucessfully login, kindly go through the manual on the usage of Inflight."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1599539095389",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1599539095389"
+      },
+      "conditions": "#successfull-login",
+      "dialog_node": "node_7_1599558720265",
+      "previous_sibling": "node_2_1599558632757"
+    },
+    {
+      "type": "standard",
+      "title": "others",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please type your query and we will soon get back to you to find out more. Alternatively, you can send an email to managed@abc.com <? $x > stating the problem and our client support representative would soon attend to it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#others",
+      "dialog_node": "node_7_1599676862650",
+      "previous_sibling": "node_6_1599752782821"
+    },
+    {
+      "type": "standard",
+      "title": "ftp",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The File Transfer Protocol is a standard network protocol used for the transfer of computer files between a client and server on a computer network. FTP is built on a client-server model architecture using separate control and data connections between the client and the server.\nPlease let us know is you want to use FTP and need more information?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do want more information?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-protocol"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-protocol"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1599746560310",
+      "conditions": "#ftp",
+      "dialog_node": "node_7_1599747789517",
+      "previous_sibling": "node_3_1599747721747"
+    },
+    {
+      "type": "standard",
+      "title": "bti response 2 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please send an email to managed@abc.com <? $x> providing the company name and the list of users and their email addresses to be added."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1599677116631",
+      "conditions": "#Addition-of-new-users",
+      "dialog_node": "node_7_1599917831471",
+      "previous_sibling": "node_5_1599677604163"
+    },
+    {
+      "type": "standard",
+      "title": "bti response 3 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please send an email to managed@abc.com <? $x> stating the page you are unable to access or need access for."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1599677116631",
+      "conditions": "#acess-control",
+      "dialog_node": "node_7_1599917905554",
+      "previous_sibling": "node_7_1599917831471"
+    },
+    {
+      "type": "standard",
+      "title": "Peppol",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PEPPOL stands for Pan-European Public Procurement OnLine. The network was established as a test project by the European Commission in in 2008.\nOrganizations that are now connected to PEPPOL can exchange business documents, such as various electronic formats, through the highly secured and safe international network.\nPlease let us know is you want to use PEPPOL and need more information?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want more information?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes-protocol"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no-protocol"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1599746560310",
+      "conditions": "#peppol",
+      "dialog_node": "node_7_1599931527092",
+      "previous_sibling": "node_4_1599748273525"
+    },
+    {
+      "type": "standard",
+      "title": "edi - option 1 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good to know that your company is EDI enabled, kindly let us know your requirement so that we can contact you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do u want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1599752782821",
+      "conditions": "#edi-option1",
+      "dialog_node": "node_8_1599752898578"
+    },
+    {
+      "type": "standard",
+      "title": "scbn hunt option 2 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please send an email to managed@abc.com <? $x >providing the company name and the list of users and their email addresses to be added."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1599675743932",
+      "conditions": "#Addition-of-new-users",
+      "dialog_node": "node_8_1599916953733",
+      "previous_sibling": "node_5_1599916868934"
+    },
+    {
+      "type": "standard",
+      "title": "Alert notification option 1 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for letting us know. We would have the configuration done and you should start seeing the notifications fairly soon."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1599749370804",
+      "conditions": "#all-failures",
+      "dialog_node": "node_8_1599918502378"
+    },
+    {
+      "type": "standard",
+      "title": "Custom option 2 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for letting us know. We would have the configuration done and you should start seeing the notifications fairly soon."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1599918123493",
+      "conditions": "#outbound-failures",
+      "dialog_node": "node_8_1599919304394",
+      "previous_sibling": "node_1_1599919261933"
+    },
+    {
+      "type": "standard",
+      "title": "Queries ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We will get back to you with your query and thank you !!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue ? ",
+            "options": [
+              {
+                "label": "Yes ",
+                "value": {
+                  "input": {
+                    "text": "Back to Main menu "
+                  }
+                }
+              },
+              {
+                "label": "No ",
+                "value": {
+                  "input": {
+                    "text": "exit "
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#queries",
+      "dialog_node": "node_8_1600244152482",
+      "previous_sibling": "node_3_1600090430548"
+    },
+    {
+      "type": "standard",
+      "title": "find the document",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kindly find the detailed document on the inflight usgae and FAQ"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1599539095389",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1599539095389"
+      },
+      "conditions": "#find-doc",
+      "dialog_node": "node_9_1599558845833",
+      "previous_sibling": "node_7_1599558720265"
+    },
+    {
+      "type": "standard",
+      "title": "bti response 4 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please send an email to managed@abc.com <? $x > stating what are the limitations in the current role. The Client support representative would address your concerns and help with change in role if the need be."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to continue?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "back to main menu"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1599677116631",
+      "conditions": "#change-in-role",
+      "dialog_node": "node_9_1599917946710",
+      "previous_sibling": "node_7_1599917905554"
+    },
+    {
+      "type": "frame",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "title": "Welcome, I am Watson Assistant and here is the list of things which i can help you with ! Which information do you want ?",
+            "options": [
+              {
+                "label": " SCBN Hub ",
+                "value": {
+                  "input": {
+                    "text": "scbn"
+                  }
+                }
+              },
+              {
+                "label": "BTI ",
+                "value": {
+                  "input": {
+                    "text": "bti"
+                  }
+                }
+              },
+              {
+                "label": "Alert Notification",
+                "value": {
+                  "input": {
+                    "text": "notification"
+                  }
+                }
+              },
+              {
+                "label": "Reporting ",
+                "value": {
+                  "input": {
+                    "text": "reporting"
+                  }
+                }
+              },
+              {
+                "label": "Instructions for Protocol Setups ",
+                "value": {
+                  "input": {
+                    "text": "protocols-setup"
+                  }
+                }
+              },
+              {
+                "label": "Contact Support",
+                "value": {
+                  "input": {
+                    "text": "contact-support"
+                  }
+                }
+              },
+              {
+                "label": "Others ",
+                "value": {
+                  "input": {
+                    "text": "others"
+                  }
+                }
+              },
+              {
+                "label": "Exit ",
+                "value": {
+                  "input": {
+                    "text": "Exit "
+                  }
+                }
+              }
+            ],
+            "description": "Please choose one of the given options below: ",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome || #hello",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Chat_Bot",
+  "language": "en",
+  "description": ""
+}
